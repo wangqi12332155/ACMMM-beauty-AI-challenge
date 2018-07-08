@@ -1,1 +1,3 @@
 # ACMMM-beauty-AI-challenge
+
+we propose a beauty product image retrieval method based on multi-feature fusion and feature aggregation. The key idea is representing the image with the feature vector obtained by multi-feature fusion and feature aggregation. VGG16 and ResNet50 are chosen to extract image features, and Crow is adopted to perform deep feature aggregation. Benefited from the idea of transfer learning, we fine turn VGG16 on the Perfect-500K data set to improve the performance of image retrieval. The proposed method won the third price in Perfect Corp. Challenge 2018 with the best result 0.270676 mAP.
